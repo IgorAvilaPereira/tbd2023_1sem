@@ -13,17 +13,8 @@ import redis.clients.jedis.Jedis;
  *
  * @author iapereira
  */
-public class AtividadeAvaliada {
+public class Main {
 
     public static void main(String[] args) {
-        Jedis jedis = new Jedis();
-//        jedis.set("renan", new Pessoa("Igor", "Pereira").toString());
-
-        UUID uuid = UUID.randomUUID();
-        System.out.println(uuid.toString());
-
-        String vet[] = jedis.get("renan").split(";");
-        Pessoa renan = new Pessoa(vet[0], vet[1]);
-        System.out.println("nome:"+renan.getNome());
     }
 }
