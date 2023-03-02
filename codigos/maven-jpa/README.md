@@ -1,4 +1,4 @@
-* [Projeto VSCODE Java Maven (JPA)](./maven-jpa)
+* [Projeto VSCODE Java Maven (JPA)](./)
 
  * Dependendo da versão da JDK instalada, pode ser necessário trocar no pom.xml:
 
